@@ -6,11 +6,8 @@
 #include <vector>
 #include <clocale>
 
+
 using namespace std;
-vector<int> genvector(){
-    vector<int> vec{1,2,3,4,5,7,9,0};
-    return vec;
-}
 
 
 

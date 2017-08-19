@@ -4,7 +4,7 @@
 
 
 #include <clocale>
-#include "init_vars.h"
+#include "defStr.h"
 
 
 class Solution {
