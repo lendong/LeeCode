@@ -5,7 +5,7 @@
 #include <clocale>
 #include <vector>
 using namespace std;
-#include "Stucts.h"
+#include "StuctLib.h"
 
 
 class Solution {

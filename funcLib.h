@@ -7,7 +7,7 @@
 
 int run();
 
-#include "Stucts.h"
+#include "StuctLib.h"
 
 vector<int> genvector();
 

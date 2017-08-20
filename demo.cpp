@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <vector>
-#include "Stucts.h"
+#include "StuctLib.h"
 
 #include "funcLib.h"
 using namespace std;

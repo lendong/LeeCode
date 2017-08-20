@@ -2,8 +2,8 @@
 // Created by dong on 8/21/17.
 //
 
-#include "Stucts.h"
-#include "binary-tree-level-order-traversal-ii.cpp"
+#include "StuctLib.h"
+#include "classLib.h"
 
 vector<int> genvector(){
     vector<int> vec{1,2,3,4,5,7,9,0};
@@ -11,7 +11,7 @@ vector<int> genvector(){
 }
 
 TreeNode * gentree(){
-    Solution a;
+    pi2bt a;
     vector<int> inorder{1,2,3,5,6,4,7};
     vector<int> postorder{1,3,2,6,7,4,5};
     vector<int> preorder{5,2,1,3,4,6,7};

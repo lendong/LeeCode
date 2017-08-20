@@ -1,7 +1,7 @@
 //
 // Created by dong on 8/20/17.
 //
-#include "Stucts.h"
+#include "StuctLib.h"
 
 
 class treeDepth {
