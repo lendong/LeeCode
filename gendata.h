@@ -5,7 +5,7 @@
 #ifndef LEECODE_GENDATA_H
 #define LEECODE_GENDATA_H
 
-#include "defStr.h"
+#include "Stucts.h"
 #include "binary-tree-level-order-traversal-ii.cpp"
 
 vector<int> genvector(){
@@ -15,9 +15,10 @@ vector<int> genvector(){
 
 TreeNode * gentree(){
     Solution a;
-    vector<int> inorder{1,3,2,5,6,4,7};
+    vector<int> inorder{1,2,3,5,6,4,7};
     vector<int> postorder{1,3,2,6,7,4,5};
-    TreeNode *root=a.buildTree(inorder,postorder);
+    vector<int> preorder{5,2,1,3,4,6,7};
+    TreeNode *root=a.buildTree(preorder,inorder);
     return root;
 }
 #endif //LEECODE_GENDATA_H

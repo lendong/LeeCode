@@ -4,7 +4,7 @@
 
 
 #include <clocale>
-#include "defStr.h"
+#include "Stucts.h"
 
 
 class Solution {
