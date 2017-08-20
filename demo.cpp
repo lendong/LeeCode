@@ -5,7 +5,7 @@
 #include <iostream>
 #include <vector>
 #include "Stucts.h"
-#include "gendata.h"
+
 #include "funcLib.h"
 using namespace std;
 #include "maximum-depth-of-binary-tree.cpp"
@@ -22,5 +22,7 @@ int run() {
     TreeNode *root = gentree();
     treeDepth b;
     cout<<b.maxDepth(root)<<endl;
+//    h d;
+//    cout<<d.add1(a)<<endl;
     return 0;
 }

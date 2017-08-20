@@ -7,4 +7,15 @@
 
 int run();
 
+#include "Stucts.h"
+
+vector<int> genvector();
+
+TreeNode * gentree();
+
+class h{
+public:
+    int add1(int);
+};
+
 #endif //LEECODE_FUNCLIB_H

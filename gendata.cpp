@@ -1,9 +1,6 @@
 //
-// Created by dong on 8/19/17.
+// Created by dong on 8/21/17.
 //
-
-#ifndef LEECODE_GENDATA_H
-#define LEECODE_GENDATA_H
 
 #include "Stucts.h"
 #include "binary-tree-level-order-traversal-ii.cpp"
@@ -21,4 +18,3 @@ TreeNode * gentree(){
     TreeNode *root=a.buildTree(preorder,inorder);
     return root;
 }
-#endif //LEECODE_GENDATA_H
